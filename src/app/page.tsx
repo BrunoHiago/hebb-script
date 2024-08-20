@@ -11,9 +11,14 @@ export default function Home() {
         Um simples programa que usa aprendizado Hebbiano para treinar um rede
         neural para identidicar letras do alfabeto.
       </p>
-      <Link href="/train">
+      <Link href="/hebb">
         <span className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-          Treinar
+          Regra de Hebb
+        </span>
+      </Link>
+      <Link href="/perceptron">
+        <span className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Perceptron
         </span>
       </Link>
     </main>
